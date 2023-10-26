@@ -1,0 +1,11 @@
+<suite name="Web_Automation_Suite">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://es.wikipedia.org/wiki/Wikipedia:Portada"/>
+    <parameter name="TextToSearch" value="choucare"/>
+
+    <test name="myFirstTest">
+        <classes>
+            <class name="Test.WikipediaTests"></class>
+        </classes>
+    </test>
+</suite>
